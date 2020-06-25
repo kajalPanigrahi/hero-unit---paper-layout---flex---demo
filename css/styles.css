@@ -1,0 +1,88 @@
+body{
+    margin:0;
+}
+
+header{
+    display:flex; 
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #4F175A;
+    color:lightgoldenrodyellow;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+nav ul{
+    display: flex;
+}
+
+a{
+    color:lightcyan;
+}
+
+nav ul li{
+    /* display: inline; */
+    list-style: none;
+    margin:3px;
+}
+
+.hero-unit-section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-unit-section img{
+    width: 100vw;
+}
+
+.hero-unit-caption{
+    position: absolute;
+    font-size:4em;
+    color:#4F175A;
+    display:flex;
+    flex-direction: column;
+    font-style: italic;
+    font-family: 'Permanent Marker', cursive;
+    
+}
+.hero-unit-caption a{
+    font-size: 0.5em;
+    margin:auto;
+    color:purple;
+}
+
+.hero-unit-mask{
+    padding: 5px;
+    width:100vw;
+    height: 660px;
+    position: absolute;
+    background-color:lightgoldenrodyellow;
+    opacity:  0.6;
+}
+
+.mentor-profile-section{
+    display:flex;
+    justify-content: space-evenly;
+
+    margin:30px;
+}
+
+.mentor-profile{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:1px solid purple;
+    border-radius: 10px;
+    padding:25px;
+
+    box-shadow: 0px 10px 20px 5px grey;
+}
+
+footer{
+    display: flex;
+    justify-content: flex-end;
+    padding:20px;
+    background-color: purple;
+    color: lightgoldenrodyellow;
+}
